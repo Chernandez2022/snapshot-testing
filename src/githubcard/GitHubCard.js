@@ -1,12 +1,13 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import HxH from "./HxH.png";
 
 function GitHubCard() {
   return (
     <div className="card">
       <Card style={{ width: "10rem" }}>
-        {Chernandez2022}
-        <Card.Img variant="top" />
+        {HxH}
+        <Card.Img variant="top" src={HxH} />
         {}
         <Card.Body>
           <Card.Title>Chernandez2022</Card.Title>
